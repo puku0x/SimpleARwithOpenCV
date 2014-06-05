@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{06e2d9e1-74fe-4d29-9e94-f3ea80429740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{4cceaaea-23b5-4465-aeec-3b00075be422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SimpleAR">
+      <UniqueIdentifier>{11acc97e-d21f-4355-b47d-f0860f93b9a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SimpleAR">
+      <UniqueIdentifier>{321962c9-b3f8-4093-8638-aedf655c49cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SimpleAR\CameraCalibration.cpp">
+      <Filter>Source Files\SimpleAR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SimpleAR\GeometryTypes.cpp">
+      <Filter>Source Files\SimpleAR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SimpleAR\Marker.cpp">
+      <Filter>Source Files\SimpleAR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SimpleAR\MarkerDetector.cpp">
+      <Filter>Source Files\SimpleAR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SimpleAR\TinyLA.cpp">
+      <Filter>Source Files\SimpleAR</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\SimpleAR\MarkerDetector.hpp">
+      <Filter>Header Files\SimpleAR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SimpleAR\TinyLA.hpp">
+      <Filter>Header Files\SimpleAR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SimpleAR\BGRAVideoFrame.h">
+      <Filter>Header Files\SimpleAR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SimpleAR\CameraCalibration.hpp">
+      <Filter>Header Files\SimpleAR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SimpleAR\DebugHelpers.hpp">
+      <Filter>Header Files\SimpleAR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SimpleAR\GeometryTypes.hpp">
+      <Filter>Header Files\SimpleAR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SimpleAR\Marker.hpp">
+      <Filter>Header Files\SimpleAR</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
